@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shankhu Fitness</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(anastase-maragos-9dzWZQWZMdE-unsplash\ \(1\).jpg);
+        background-repeat: no-repeat;
+        height: 2117px;
+        /* width: 1440px;
+         background-repeat: no-repeat;
+            background-attachment: scroll;
+        */
+        font-family: 'Ubuntu', sans-serif;
+
+        color: white;
+      }
+
+      header
+      {
+        margin:10px;
+        padding:5px;
+      
+        
+        
+      }
+      .left {
+        display: inline-block;
+        position: absolute;
+        left: 32px;
+        top: 15px;
+      }
+
+      .left img {
+        width: 90px;
+      }
+      .left img:hover{
+        width: 90px;
+        filter: invert(100);
+      }
+
+      .mid {
+        display: block;
+        width: 600px;
+        margin: 15px auto;
+      }
+      .navbar {
+        width: 600px;
+        margin: 20px auto;
+        
+      }
+      .navbar li {
+        display: inline-block;
+        margin: auto 20px;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active:hover {
+        text-decoration: underline;
+        color: rgb(131, 128, 128);
+      }
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 32px;
+        top: 15px;
+      }
+      .right .btn {
+        color: white;
+        padding: 4px 14px;
+        background-color: rgb(17, 16, 17);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .right .btn:hover {
+        color: white;
+        padding: 4px 14px;
+        background-color: rgb(130, 135, 139);
+        border-radius: 10px;
+      }
+
+      .container
+      {
+        margin:60px;
+        /*border: 2px solid white;*/
+        padding: 30px 30px;
+        width: 35%;
+        height: 250px;
+        border-radius: 30px;
+        background-color: rgb(17, 16, 16);
+        
+      }
+      .formClass input
+      {
+          margin: 10px auto;
+          text-align: center;
+          display: block;
+          width: 300px;
+          font-size: 20px;
+        border-radius: 10px;
+        color:black;
+      }
+      .formClass .btn
+      {display:block;
+        width: 300px;
+        margin:20px auto;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgba(143, 167, 233, 0.425);
+        color: black;
+        border:2px solid white
+      }
+      .container h1
+      {
+        text-align: center;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="logo-white.png" alt="unable to load image" class="logo" />
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#" class="active">About</a></li>
+          <li><a href="#" class="active">Programs Offered</a></li>
+          <li><a href="#" class="active">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Enroll now</button>
+        <button class="btn">Call us now</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Join the Fitness Team Now</h1>
+      <form action="noactionphp"> 
+        <div class="formClass">
+          <input type="text" name="Name" id="name" class="inputlabel" placeholder="Enter Your Name">
+          </div>
+          <div class="formClass">
+            <input type="password" name="password" id="pass" class="inputlabel" placeholder="Enter Your password">
+          </div>
+           <div class="formClass">
+              <input type="email" name="Name" id="name" class="inputlabel" placeholder="Enter Your email">
+          </div>
+        <div class="formClass">
+          <button class="btn">Submit</button>
+        </div>
+               
+          
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
